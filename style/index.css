@@ -1,0 +1,65 @@
+#navbar{
+    display: flex;
+    border:1px solid red;
+    height:70px;
+    width:97%;
+    margin-left: 30px;
+    background-color: yellow;
+    color:red;
+}
+body{
+    background-color: blanchedalmond;
+}
+#left{
+    display: flex;
+    width:66%;
+}
+#meals{
+    height:32px;
+    width:300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+#sub{
+    height:34px;
+    width:100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 9px;
+    background-color: blue;
+    color:white;
+
+}
+#right{
+    display: flex;
+}
+#cout{
+    margin-top: 22px;
+    display: flex;
+}
+#wii{
+    display: flex;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+}
+#set{
+    height: 32px;
+    width:100px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: orangered;
+    color:white;
+    border:none;
+    border-radius: 9px;
+}
+#count{
+    font-size: 22px;
+    font-weight: bolder;
+}

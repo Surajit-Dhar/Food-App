@@ -1,0 +1,25 @@
+#order-form{
+    border:1px solid black;
+    height:500px;
+    width:400px;
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#ship{
+    text-align: center;
+    margin-top: 50px;
+}
+.info{
+    height:28px;
+    width:250px;
+    border-radius: 9px;
+}
+#sp{
+    height:35px;
+    width:240px;
+    border-radius: 10px;
+    margin-top: 40px;
+}

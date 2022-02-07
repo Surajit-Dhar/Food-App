@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/cart.css">
+  </head>
+
+  <style></style>
+
+  <body>
+    <div id="head">
+      <div id="left">
+        &ensp;&ensp;&ensp;<h2>Masai Food's</h2>
+      </div>
+      <div id="right">
+        &ensp; &ensp; &ensp; &ensp;<h3>LogIn</h3>
+        &ensp; &ensp; &ensp; &ensp;<h3>SignUp</h3>
+        &ensp; &ensp; &ensp;<h3>Menu</h3>
+      </div>
+      &ensp; &ensp;<h2><a href="cart.html">GoTo Cart</a></h2>
+      <!--Add menu divs here-->
+      <div id="cout">
+        (<div id="count"></div>)
+      </div>
+    </div>
+    <div id="container">
+    <div id="bill">
+
+      <h1><u>SUB TOTAL</u></h1>
+
+      TOTAL:-<h2 id="total">
+        <!--Show cart total ONLY here-->
+      </h2>
+      <button id="chek" onclick="checkout()">Proced To CheckOut</button>
+
+    </div>
+    <div id="cart">
+      <!--Show dishes added to cart here-->
+      <!-- add an remove button to each dish so that you can remove that dish from cart, give it HTML id as 'remove' -->
+
+    </div>
+    </div>
+  </body>
+
+</html>
+<script src="./scripts/cart.js"></script>
