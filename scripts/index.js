@@ -14,8 +14,24 @@ async function getItem(){
     }
 }
 getItem();
+async function getData(){
+    try{
+        document.querySelector("#menu").innerHTML="";
+        let dise = document.querySelector("#meals").value;
+        let res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${dise}`);
+        let data = await res.json();
+        let ans = data.meals;
+        console.log(data.meals);
+        appendData(ans)
+
+    }catch(err){
+        console.log(err);
+    }
+}
+
 
 function appendData(user){
+    document.querySelector("#menu").innerHTML="";
     user.map(function(elem){
 
         var div = document.createElement("div");
@@ -29,7 +45,7 @@ function appendData(user){
         var titel = document.createElement("h3");
         titel.textContent=elem.strMeal;
         var price = document.createElement("h3");
-        price.textContent=Math.floor(Math.random()*400)+100;
+        price.textContent=`Rs :  ${Math.floor(Math.random()*400)+100}`
 
         var button = document.createElement("button");
         button.textContent="Add To Cart";
