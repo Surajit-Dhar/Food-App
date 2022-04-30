@@ -17,3 +17,6 @@ I divided about the parts of the website Day wish, I should build and how Consid
 </ul>
 
 <img src="https://raw.githubusercontent.com/Surajit-Dhar/Photos/main/Screenshot%20(113).png" alt="project pik">
+<p>If you are still here listening to me, I am so glad and I thank you with all my heart, Before going I would like you to rate our project and give suggestions in the comments, I would love to have them. Once again thank you and I will meet again after a month with some other exciting project.</p>
+<br/>
+<h4>Thank You.</h4>
